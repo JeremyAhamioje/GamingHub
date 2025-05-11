@@ -1,0 +1,61 @@
+/* App.css */
+.game-container {
+  text-align: center;
+}
+
+.game-area {
+  border: 1px solid #ccc;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.moon {
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+/* Dashboard styles */
+.dashboard {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.current-score {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.score-history {
+  margin-top: 20px;
+}
+
+.score-history ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.score-history li {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #333;
+}

@@ -1,0 +1,66 @@
+/* Home.css */
+
+/* General home container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #7474e0;
+  min-height: 100vh;
+}
+
+/* Overlay for a glassmorphism effect */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(73, 71, 71, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+/* User icon styling */
+.user-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Score display styling */
+.score-display {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.score-display h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.score-item {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 500;
+}

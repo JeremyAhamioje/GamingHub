@@ -1,0 +1,13 @@
+.right-pane {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .right-pane {
+    display: none;
+  }
+}
