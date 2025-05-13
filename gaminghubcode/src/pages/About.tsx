@@ -93,7 +93,7 @@ const About: React.FC = () => {
         creating seamless interactions that make the user's journey as easy as possible.
       </p>
       <img
-        src="/me.jpg" // Replace with your image path
+        src="/me.png" // Replace with your image path
         alt="Profile"
         className="about-image"
       />
